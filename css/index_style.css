@@ -1,0 +1,186 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.home{
+    background-image: url(../images/cover.jpg);
+    background-size: 100% 100%;
+}
+.overlay{
+    background-color: #ec3337;
+    opacity: 0.7;
+    height: 100vh;
+    overflow: auto
+}
+.nav-color{
+    background-color: #1A1A1A;
+}
+.cover-title h1{
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 350%;
+    color: white;
+    padding-top: 150
+}
+    
+.cover-button button{
+    border: solid 2px white;
+    padding: 10 30;
+    
+}
+
+@media screen and (max-width: 1000px){
+    .cover-title{
+        margin-top: 250
+    }
+    .cover-title h1{
+        padding: 150 0
+    }
+    .cover-title h4{
+        font-size: 24;
+        font-weight: bold     
+    }
+    .cover-button{
+        margin: 50
+    }
+}
+.cover-arrow i{
+    animation-name: aa;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes aa{
+    0%{transform: translateY(0px)}
+    50%{transform: translateY(50px)}
+    51%{transform: translateY(50px)}
+    100%{transform: translateY(0px)}
+}
+
+.about-caption h2{
+    color: #444;
+}
+.about-caption i:hover{
+    background-color: #ec3337;
+    color: white;
+}
+.title h2{
+    color: #444;
+    font-weight: 900;
+}
+.title h5{
+    color: #444;
+    font-weight: 900;
+}
+.title h1{
+    color: #444;
+}
+.title p{
+    color: #777;
+}
+.prog-bar{
+    background-color: #ec3337;
+}
+.digram p{
+    color: #777;
+}
+.about-button button{
+    border: solid 2px white;
+    padding: 10 30;
+    background-color: #ec3337;
+    color: white;
+}
+.about-button button:hover{
+   background-color: #c62d32;
+}
+.work{
+    background-color: #F5F5F5;
+}
+.cell i{
+    background-color: #f5f5f5;
+    color: #777;
+}
+.cell:hover i{
+    background-color: #c62d32;
+    color: white;
+}
+.cell:hover h5{
+    color: #c62d32;
+}
+.cell{
+    background-color: white
+}
+.work-button button{
+    border: solid 2px white;
+    padding: 10 30;
+    background-color: #ec3337;
+    color: white;
+}
+.work-button button:hover{
+   background-color: #c62d32;
+}
+.record{
+    background-image: url(../images/project-counter.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;  
+    
+}
+.record-cell{
+    margin: 120 0;
+}
+.record-cell i ,h6 {
+    color: #ec3337; 
+   font-weight: 900;
+}
+
+.record-cell h1{
+    color: white;
+}
+.portofolio{
+    background-color: #F5F5F5;
+}
+.photo{
+    background-color: white;
+}.portofolio-button button{
+    border: solid 2px white;
+    padding: 10 30;
+    background-color: #ec3337;
+    color: white;
+}
+.portofolio-button button:hover{
+   background-color: #c62d32;
+}
+.portofolio .box{
+    border: solid 1px ;
+    border-radius: 0%
+}
+.feedback{
+    background-image: url(../images/client-testimonial.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.feedback-caption{
+    width: 80%;
+    margin: auto
+}
+.feedback-img{
+    border: solid 5px #ec3337;
+}
+.feedback-caption h4{
+    color: #c62d32;
+}
+.test{
+    border: solid 2px gray ;
+    border-radius: 0%
+}
+.hire-button button{
+    border: solid 2px white;
+    padding: 10 30;
+    background-color: #ec3337;
+    color: white;
+}
+.hire-button button:hover{
+   background-color: #c62d32;
+}
+
+
+i{
+    color: red !important;
+}
